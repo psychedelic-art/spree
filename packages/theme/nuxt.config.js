@@ -91,47 +91,34 @@ export default {
     '@vue-storefront/middleware/nuxt'
   ],
   i18n: {
-    currency: 'USD',
-    country: 'US',
+    currency: 'COP',
+    country: 'COL',
     locales: [
       {
-        code: 'en',
+        code: 'es',
         label: 'English',
-        file: 'en.js'
-      },
-      {
-        code: 'de',
-        label: 'German',
-        file: 'de.js'
+        file: 'es.js'
       }
     ],
     defaultLocale: 'en',
     strategy: 'no_prefix',
     detectBrowserLanguage: false,
     currencies: [
-      { name: 'USD', label: 'Dollar' }
+      { name: 'COP', label: 'Pesos colombianos' }
     ],
     langDir: 'lang/',
     vueI18n: {
       silentTranslationWarn: true,
-      fallbackLocale: 'en',
+      fallbackLocale: 'es',
       numberFormats: {
-        en: {
+        es: {
           currency: {
             style: 'currency',
-            currency: 'USD',
+            currency: 'COP',
             currencyDisplay: 'symbol',
-            currencyDefault: 'USD'
+            currencyDefault: 'COP'
           }
         },
-        de: {
-          currency: {
-            style: 'currency',
-            currency: 'EUR',
-            currencyDisplay: 'symbol',
-            currencyDefault: 'EUR'
-          }
-        }
       },
     },
     detectBrowserLanguage: false
