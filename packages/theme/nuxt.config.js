@@ -100,7 +100,7 @@ export default {
         file: 'es.js'
       }
     ],
-    defaultLocale: 'en',
+    defaultLocale: 'es',
     strategy: 'no_prefix',
     detectBrowserLanguage: false,
     currencies: [
